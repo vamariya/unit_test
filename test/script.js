@@ -1,11 +1,11 @@
 var path = require('path');
 var fs = require('fs');
-var argv = require('optimist').demand('config').argv;
+//var argv = require('optimist').demand('config').argv;
 var sum = require('../lib/test2');
 var test1 = require('../lib/test1');
 var setup = require('../lib/setup');
 var assert = require("assert");
-var config = argv.config;
+//var config = argv.config;
 
 describe("Mocha Framework Tests", function() {
 
@@ -15,9 +15,9 @@ Common Setup Code Block
 	before("before Test:", function() {
 		console.log("Common setup");
 		console.log("Parse the Configuration File");
-		assert.ok(fs.existsSync(config), 'config file not found at path: ' + config);
+		//assert.ok(fs.existsSync(config), 'config file not found at path: ' + config);
 		console.log("Get the topo File path");
-		setup.setup(config);
+		//setup.setup(config);
 	});
 
 
