@@ -1,0 +1,14 @@
+{
+  "name": "nodejs_testing_example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+   	"test": "mocha --recursive -R xunit test/script.js > test-reports.xml"
+   },
+  "dependencies": {
+    "express": "*",
+	"mocha": "1.18.2",
+	"xunit-file": "*",
+	"optimist": "*"
+  }
+}
