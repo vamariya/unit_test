@@ -8,8 +8,6 @@
   "dependencies": {
     "express": "*",
 	"assert": "*",
-	"mocha": "git+ssh://git@github.com:vamariya/mocha.git",
-	"xunit-file": "git+ssh://git@github.com:vamariya/xunit-file.git",
 	"optimist": "*"
   }
 }
