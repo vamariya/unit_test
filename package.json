@@ -7,8 +7,9 @@
    },
   "dependencies": {
     "express": "*",
-	"mocha": "1.18.2",
-	"xunit-file": "*",
+	"assert": "*",
+	"mocha": "git+ssh://git@github.com:vamariya/mocha.git",
+	"xunit-file": "git+ssh://git@github.com:vamariya/xunit-file.git",
 	"optimist": "*"
   }
 }
